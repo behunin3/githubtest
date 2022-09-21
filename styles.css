@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #3CB371; /*medium sea green*/
+}
+
+body {
+    background-color: #FFFAF0; /*floral white*/
+}
+
+.content {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content-item {
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 400px) {
+    .content {
+        width: 300px;
+        margin-left: 50px;
+    }
+    .content-item {
+        background-color: dodgerblue;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .content {
+        width: 500px;
+        margin-left: 50px;
+    }
+    
+    .content-item {
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width: 961px) {
+    .content {
+        width: 800px;
+        margin-left: 50px;
+    }
+    
+    .content-item {
+        background-color: yellow;
+    }
+}
