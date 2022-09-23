@@ -146,7 +146,8 @@ body {
 
 /*table css stuff*/
 #budget {
-    width: 100%;
+    width: 99%;
+    margin: 5px;
 }
 
 #budget td, #budget th {
@@ -159,7 +160,8 @@ body {
 }
 
 #budget th {
-    background-image: linear-gradient(yellow, #3CB371);
+    background-image: linear-gradient(#2E8B57, #3CB371);
+    color: white;
 }
 
 #budget tr:hover {
@@ -174,6 +176,8 @@ body {
 .budget-add {
     float: right;
     margin-right: 10px;
+    
+    margin-bottom: 20px;
     background-color: #3CB371;
     color: white;
     padding: 8px;
