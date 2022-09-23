@@ -67,17 +67,20 @@
           </div>
         </nav>
         
+        <!--user input-->
         
-        <div class="content">
-            <div class="content-item">
-                <p>Hello World</p>
-            </div>
-            <div class="content-item">
-                <p>ciao</p>
-            </div>
-        </div>
-        
-        
+        <form action="/action_page.php" target="_blank">
+            <fieldset>
+            <legend>Item Description:</legend>
+            <label for="item">Item:</label><br>
+            <input type="text" id="item" name="item"><br>
+            <label for="Date">Date Purchased:</label>
+            <input type="date" id="date" name="date">
+            <label for="Description">Description:</label><br>
+            <input type="text" id="Description" name="Description"><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+        </form>
         
         
         <!--bootstrap responsive enabled-->
