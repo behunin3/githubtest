@@ -172,6 +172,10 @@ body {
     font-weight: bold;
 }
 
+footer {
+    text-align: center;
+}
+
 /*edit table button*/
 .budget-add {
     float: right;
